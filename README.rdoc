@@ -1,0 +1,7 @@
+== README
+
+Backend app for kainlite.github.io
+
+License
+
+MIT License. Copyright 2014 kainlite@gmail.com.
