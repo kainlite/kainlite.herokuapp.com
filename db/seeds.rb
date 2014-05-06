@@ -49,7 +49,7 @@ Frame.create(
   institution: 'MongoDB University',
   from: '01/01/2013',
   to: '01/12/2013',
-  description: 'Ruby on rails course',
+  description: 'MongoDB for Python developers',
   kind: 'study',
 )
 
@@ -58,7 +58,7 @@ Frame.create(
   institution: 'MongoDB University',
   from: '01/01/2013',
   to: '01/12/2013',
-  description: 'Ruby on rails course',
+  description: 'MongoDB for system administrators',
   kind: 'study',
 )
 
