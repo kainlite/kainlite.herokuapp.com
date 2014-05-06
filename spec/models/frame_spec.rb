@@ -16,7 +16,7 @@ describe Frame do
   it "should be invalid if missing required data" do
     frame = Frame.new
     assert !frame.valid?
-    [:title, :description, :to, :from, :institution].each do |field_name|
+    [:title, :description, :from, :institution].each do |field_name|
       frame.errors.keys.should include(field_name)
     end
   end
