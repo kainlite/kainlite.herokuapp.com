@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   scope :api do
-    get "/frames(.:format)" => "screencasts#index"
-    get "/frames/:id(.:format)" => "screencasts#show"
+    get "/frames(.:format)" => "frames#index"
+    get "/frames/:id(.:format)" => "frames#show"
   end
+
+  root 'frames#index'
 end

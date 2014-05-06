@@ -5,3 +5,21 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Frame.create(
+  title: 'Lorem ipsum',
+  institution: 'Institution',
+  from: '01/01/2013',
+  to: '01/01/2014',
+  description: 'Somthing fancy...',
+  kind: 'study',
+)
+
+Frame.create(
+  title: 'Lorem ipsum 2',
+  institution: 'Institution',
+  from: '01/01/2013',
+  to: '01/01/2014',
+  description: 'Somthing fancy...',
+  kind: 'work',
+)

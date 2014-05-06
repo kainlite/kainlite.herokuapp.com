@@ -2,7 +2,7 @@ class FramesController < ApplicationController
   # GET /frames
   # GET /frames.json
   def index
-    kind = params.fetch(:type) { '' }
+    kind = params.fetch(:kind) { '' }
     if kind == 'work'
       @frames = Frame.work
     elsif kind == 'study'
