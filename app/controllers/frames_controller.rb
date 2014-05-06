@@ -19,4 +19,8 @@ class FramesController < ApplicationController
   def show
     render json: Frame.find(params[:id])
   end
+
+  def bio
+    render json: HashWithIndifferentAccess.new(YAML.load(File.read(File.expand_path('../../../config/bio.yml', __FILE__))))
+  end
 end
