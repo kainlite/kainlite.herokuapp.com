@@ -45,6 +45,8 @@ gem 'capistrano'
 
 gem 'rails_12factor'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 group :development do
   gem 'pry'
   gem 'pry-rails'
