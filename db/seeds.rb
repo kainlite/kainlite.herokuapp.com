@@ -36,8 +36,8 @@ Frame.create(
 )
 
 Frame.create(
-  title: 'Ruby on Rails'
-  institution: 'UTN FRM'
+  title: 'Ruby on Rails',
+  institution: 'UTN FRM',
   from: '01/01/2011',
   to: '01/12/2011',
   description: 'Ruby on rails course',
@@ -45,8 +45,8 @@ Frame.create(
 )
 
 Frame.create(
-  title: 'M101P'
-  institution: 'MongoDB University'
+  title: 'M101P',
+  institution: 'MongoDB University',
   from: '01/01/2013',
   to: '01/12/2013',
   description: 'Ruby on rails course',
@@ -54,8 +54,8 @@ Frame.create(
 )
 
 Frame.create(
-  title: 'M102'
-  institution: 'MongoDB University'
+  title: 'M102',
+  institution: 'MongoDB University',
   from: '01/01/2013',
   to: '01/12/2013',
   description: 'Ruby on rails course',
@@ -63,8 +63,8 @@ Frame.create(
 )
 
 Frame.create(
-  title: 'General Game Playing'
-  institution: 'Coursera'
+  title: 'General Game Playing',
+  institution: 'Coursera',
   from: '01/01/2013',
   to: '01/12/2013',
   description: 'Ruby on rails course',
