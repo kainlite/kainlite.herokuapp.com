@@ -73,10 +73,10 @@ Frame.create(
 
 ## Work
 Frame.create(
-  title: 'Sysadmin/Programmer/DevOps - Buenos Aires',
+  title: 'Sysadmin/Programmer/DevOps',
   institution: 'Workjoy Argentina S.A.',
   from: '01/08/2008',
-  to: '12/12/2014',
+  to: '',
   description: 'Infrastructure designer/implementator, Build systems to control and improve response times on sysadmin tasks, develop and deploy management system.',
   kind: 'work',
 )
@@ -92,7 +92,7 @@ Frame.create(
 
 Frame.create(
   title: 'Computer Technician',
-  institution: 'Norfix S.A. - Buenos Aires',
+  institution: 'Norfix S.A.',
   from: '01/04/2008',
   to: '01/08/2008',
   description: 'Tech support, Pc repairment, Networking',
@@ -101,7 +101,7 @@ Frame.create(
 
 Frame.create(
   title: 'Sysadmin',
-  institution: 'S.T.I. Informatica - San Juan',
+  institution: 'S.T.I. Informatica',
   from: '01/08/2005',
   to: '01/02/2008',
   description: 'Network administration',
