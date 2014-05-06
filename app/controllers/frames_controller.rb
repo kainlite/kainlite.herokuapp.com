@@ -3,9 +3,9 @@ class FramesController < ApplicationController
   # GET /frames.json
   def index
     kind = params.fetch(:kind) { '' }
-    if kind == 'work'
+    if kind == 'works'
       @frames = Frame.work
-    elsif kind == 'study'
+    elsif kind == 'studies'
       @frames = Frame.study
     else
       @frames = Frame.all
