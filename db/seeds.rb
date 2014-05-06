@@ -71,6 +71,15 @@ Frame.create(
   kind: 'study',
 )
 
+Frame.create(
+  title: 'Systems engineering',
+  institution: 'FRM UTN',
+  from: '01/01/2010',
+  to: '',
+  description: '2nd year',
+  kind: 'study',
+)
+
 ## Work
 Frame.create(
   title: 'Sysadmin/Programmer/DevOps',
