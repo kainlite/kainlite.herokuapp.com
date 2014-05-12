@@ -94,7 +94,7 @@ Frame.create(
   title: 'Programmer',
   institution: 'Cirope S.A.',
   from: '01/01/2013',
-  to: '31/05/2014',
+  to: '31/05/2013',
   description: 'Ruby Programmer, using Rails framework',
   kind: 'work',
 )
@@ -120,8 +120,8 @@ Frame.create(
 Frame.create(
   title: 'Computer Technician',
   institution: 'CyberPoints',
-  from: '01/01/2013',
-  to: '01/01/2014',
+  from: '01/01/2007',
+  to: '01/08/2008',
   description: 'Pc repairment, Network administration',
   kind: 'work',
 )
